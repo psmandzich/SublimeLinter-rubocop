@@ -13,10 +13,10 @@
 """This module exports the Rubocop plugin class."""
 
 import os
-from SublimeLinter.lint import util, RubyLinter
+from SublimeLinter.lint import util, Linter
 
 
-class Rubocop(RubyLinter):
+class Rubocop(Linter):
     """Provides an interface to rubocop."""
 
     syntax = (
